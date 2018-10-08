@@ -3,8 +3,8 @@ class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Начальный: ");
-        for (int i = 0; i < mass.length; i++) {  //вывод начального массива
+        System.out.println("РќР°С‡Р°Р»СЊРЅС‹Р№: ");
+        for (int i = 0; i < mass.length; i++) {  //РІС‹РІРѕРґ РЅР°С‡Р°Р»СЊРЅРѕРіРѕ РјР°СЃСЃРёРІР°
             System.out.print(mass[i] + " ");
         }
         System.out.println(" ");
@@ -12,8 +12,8 @@ class Main {
         int endIndex = mass.length - 1;
         quickSort(startIndex, endIndex);
 
-        System.out.println("Конечнный: ");
-        for (int i = 0; i < mass.length; i++) {  //вывод конечного массива
+        System.out.println("РљРѕРЅРµС‡РЅРЅС‹Р№: ");
+        for (int i = 0; i < mass.length; i++) {  //РІС‹РІРѕРґ РєРѕРЅРµС‡РЅРѕРіРѕ РјР°СЃСЃРёРІР°
             System.out.print(mass[i] + " ");
         }
     }
